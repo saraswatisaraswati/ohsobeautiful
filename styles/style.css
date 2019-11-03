@@ -1,0 +1,166 @@
+/* start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* selector */
+
+body {
+/*Start Body*/
+/* Property */
+    color:black;
+    font-family: roboto, helvetica, sans-serif;
+    font-size: 18 px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    }
+/*End Body*/
+
+    /* Start Debug */    
+    .bg-white {
+        background-color: white;
+    }
+    .bg-grey {
+        background-color: grey;
+    }
+    /* End Debug */  
+
+    /* Start Container */  
+    .container {
+        margin: 10px auto;
+        overflow: auto;
+        width: 90%;
+    }
+    /* End Container */ 
+
+    /* Start Logo */
+    .logo {
+    text-align: center;
+    }
+/* End Logo */
+
+/* Start Menu Primer*/
+    .menu-primer ul {
+        background-color: black;
+        border-radius: 4px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .menu-primer li {
+    border-right: 1px solid; 
+    display: inline-block;
+    margin:0 -4px;
+   
+    }
+
+    .menu-primer a {
+    color: aliceblue;
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    }
+
+    .menu-primer a:hover {
+    background-color: azure;
+    color: #000000;
+    text-decoration: none;
+    }
+
+    .menu-primer :active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    }
+/* End Menu Primer*/
+
+/* Start Heading*/
+    h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: roboto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 13px;
+    }
+
+/* End Heading*/
+
+/* Start Menu Sekunder */
+    .menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top:1px solid  #eaecef; 
+    overflow: auto;
+    padding: 10px 0;
+    }
+
+    .menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    }
+
+    .menu-sekunder ul {
+    padding: 0;
+    }
+
+    .menu-sekunder li {
+    list-style: disc;
+    }
+
+    .menu-sekunder li a,
+    .menu-sekunder li p {
+        font-size: 15px;
+    }
+
+    .menu-sekunder-one
+    .menu-sekunder-two
+    .menu-sekunder-three {
+        float: left;
+    }
+
+    .menu-sekunder-one {
+    width: 40%;
+    }
+    .menu-sekunder-two
+.   menu-sekunder-three {
+    width: 30%;
+    }
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright {
+    
+}
+/* End Copyright */
+
+
+/* latihan start container*/
+.container {
+
+}
+
+/* latihan End container*/
